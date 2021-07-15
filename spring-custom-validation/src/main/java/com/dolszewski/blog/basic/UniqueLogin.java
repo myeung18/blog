@@ -12,7 +12,8 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = UniqueLoginValidator.class)
 public @interface UniqueLogin {
 
-    String message() default "{com.dolszewski.blog.UniqueLogin.message}";
+//    String message() default "{com.dolszewski.blog.UniqueLogin.message}";
+    String message() default "com.dolszewski.blxxxxxxxxxge";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 

@@ -12,6 +12,7 @@ class UniqueLoginValidator implements ConstraintValidator<UniqueLogin, String> {
     }
 
     public void initialize(UniqueLogin constraint) {
+        System.out.println("content: "+constraint.toString());
     }
 
     public boolean isValid(String login, ConstraintValidatorContext context) {
